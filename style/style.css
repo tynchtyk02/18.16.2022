@@ -1,0 +1,28 @@
+
+.rool img{
+    animation-iteration-count: infinite;
+    animation-name: rool;
+    animation-duration: 0.1s;
+    width: 40vh;
+    
+}
+@keyframes rool{
+    from{
+    transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
+.fon{
+    background-image: url('../фото/982609_2.png');
+    height: 100vh;
+    background-size: cover;
+    
+}
+.rool {
+ padding-top: 38rem;
+ padding-left: 11rem;
+
+}
+
